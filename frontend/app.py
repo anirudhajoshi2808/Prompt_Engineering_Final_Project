@@ -156,7 +156,8 @@ import openai
 # from openai import OpenAI
 # client = OpenAI()
 
-openai.api_key = os.getenv('OPENAI_API_KEY')
+# openai.api_key = os.getenv('OPENAI_API_KEY')
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 load_dotenv()
 
@@ -201,7 +202,8 @@ if resume_file is not None:
         user_vector = model.encode(user_input).tolist()
 
         # Initialize Pinecone
-        PINECONE_API_KEY = os.getenv('PINECONE_API_KEY')
+        # PINECONE_API_KEY = os.getenv('PINECONE_API_KEY')
+        PINECONE_API_KEY = st.secrets["PINECONE_API_KEY"]
         PINECONE_INDEX_NAME = 'interview-prep'
 
         pc = Pinecone(api_key=PINECONE_API_KEY)
