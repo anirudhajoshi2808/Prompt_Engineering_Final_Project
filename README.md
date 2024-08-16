@@ -1,6 +1,7 @@
 # Custom Learning Paths for Your Next Job Interview
 
-## Live App
+## Applications
+[![Demo Video](https://img.shields.io/badge/Video-CC6699?style=for-the-badge)](https://www.youtube.com/watch?v=fD6B2vpPlX8)
 [![Application Link](https://img.shields.io/badge/Application-green?style=for-the-badge)](https://promptengineeringfinalproject-hbrr4esveegtan4vbbhyfd.streamlit.app/)
 
 ## Project Overview
@@ -78,9 +79,9 @@ FinalProject
 
 ## Contributors
 
-| Name            | Contribution % | Contributions                                               |
-|-----------------|----------------|-------------------------------------------------------------|
-| Anirudha Joshi  | 100%            | Data extraction, storage, processing, vector database setup, OpenAI fine-tuning, application deployment. |
+| Name            | Contribution % | Contributions                                                                                            |LinkedIn                                       |Email                     |
+|-----------------|----------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------|--------------------------|
+| Anirudha Joshi  | 100%            | Data extraction, storage, processing, vector database setup, OpenAI fine-tuning, application deployment. |https://www.linkedin.com/in/anirudhajoshi424/ | joshi.anir@northeastern.edu |
 
 
 
